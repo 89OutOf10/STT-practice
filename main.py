@@ -47,9 +47,12 @@ print(response_standard_mp3)
 print(response_standard_wav)
 
 # EXAMPLE 3: Transcribing a Long media File
-media_uri = 'gs://example-stt-test1/example-long.mp3'
+# media_uri = 'gs://example-stt-test1/example-long.mp3'
+##Step 1. Load the media files
+media_uri = 'gs://example-stt-test1/rprogramming-accent.mp3'
 long_audi_wav = speech.RecognitionAudio(uri=media_uri)
 
+##Step 2. Configure Media Files Output
 config_wav_enhanced = speech.RecognitionConfig(
     sample_rate_hertz = 48000,
     enable_automatic_punctuation = True,
@@ -58,6 +61,7 @@ config_wav_enhanced = speech.RecognitionConfig(
     model = 'video'
 )
 
+##Step 3. Transcribing the RecognitionAudio Objects
 operation = speech_client.long_running_recognize(
     config = config_wav_enhanced,
     audio =long_audi_wav
