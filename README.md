@@ -1,7 +1,7 @@
 # Testing Google STT for capstone project 2021
 - 2021.09.01 ~ 2021.12.09
 - EWHA WOMANS UNIV. Capstone Project 2021
-- STRAT TEAM 21 십중팔구 김소민, 김윤아, 이서정, 정세영
+- STRAT TEAM 21 십중팔구 - 김소민, 김윤아, 이서정, 정세영
 
 # Datasets
 1. [YOUTUBE : MIT Introduction to Deep Learning](https://youtu.be/5tvmMX8r_OM)
