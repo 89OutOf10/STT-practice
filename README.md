@@ -22,6 +22,8 @@
 
 
 ## BERT
+official github repository : https://github.com/google-research/bert
+bert-extractive-summarizer 라이브러리를 설치하여 추출 요약
 
 
 ## T5 TransFromer
