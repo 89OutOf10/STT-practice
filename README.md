@@ -13,6 +13,10 @@
 # Process
 ![Snipaste_2021-12-09_23-07-21](https://user-images.githubusercontent.com/53165813/145411773-9afdfe68-541d-4dd2-9ddb-10139722112c.png)
 
+# Used API
+1. Google STT API 
+  - Google STT API를 이용해 youtube 동영상의 음성 추출해 텍스트로 변환
+
 # Models
 ## TextRank
 
