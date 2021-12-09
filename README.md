@@ -19,6 +19,9 @@
 
 # Models
 ## TextRank
+1. Gensim Word2vec embeddings
+  - https://radimrehurek.com/gensim/models/word2vec.html
+2. TF-IDF : 단어의 빈도와 역문서빈도를 사용하여 DTM 내의 각 단어들마다 중요한 정도를 가중치로 주는 방법 
 
 
 ## BERT
